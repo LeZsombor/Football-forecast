@@ -1,0 +1,15 @@
+[project]
+name = "football-forecast"
+version = "0.1.0"
+description = "Football match outcome forecasting, benchmarked against betting markets."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

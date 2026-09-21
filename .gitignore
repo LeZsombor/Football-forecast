@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data and databases (downloaded or generated, never committed)
+/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Secrets (API keys later)
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+*:Zone.Identifier
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
