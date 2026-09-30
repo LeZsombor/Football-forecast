@@ -4,6 +4,14 @@ version = "0.1.0"
 description = "Football match outcome forecasting, benchmarked against betting markets."
 requires-python = ">=3.12"
 
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["forecast*"]
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
